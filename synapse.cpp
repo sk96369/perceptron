@@ -2,18 +2,8 @@
 
 namespace perceptron
 {
-	class Synapse
-	{
-		double weight;
-		Node * input;
-		Node * output;
-		
-		public:
-		Synapse(double w);
-		~Synapse();
-	};
 	
-	Synapse(double w)
+	Synapse(double w, Node * i, Node * o)
 	{
 		
 	}

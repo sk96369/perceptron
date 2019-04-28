@@ -11,7 +11,7 @@ namespace perceptron
 		Node * output;
 		
 		public:
-		Synapse(double w);
+		Synapse(double w, Node * i, Node * o);
 		~Synapse();
 		void adjust(double d);
 	};
